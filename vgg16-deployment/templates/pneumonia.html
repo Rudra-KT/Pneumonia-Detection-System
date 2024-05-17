@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pneumonia Information</title>
+    <link rel="icon" href="{{ url_for('static', filename='curious.png') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s ease;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+        h1 {
+            color: #333;
+            transition: color 0.3s ease;
+        }
+        img {
+            max-width: 250px;
+            height: auto;
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+        }
+        .toc {
+            background-color: #f9f9f9;
+            margin-right: 80px;
+            padding: 20px;
+            box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+            float: right;
+        }
+        .toc ul {
+            list-style: none;
+            padding: 0;
+        }
+        .toc li {
+            margin-bottom: 10px;
+        }
+        .toc a {
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s ease;
+        }
+        .toc a:hover {
+            color: #555;
+        }
+
+        .section {
+            margin-bottom: 20px;
+            clear: both;
+            transition: margin-bottom 0.3s ease;
+        }
+        .section h2 {
+            color: #555;
+            transition: color 0.3s ease;
+        }
+        .section p {
+            line-height: 1.6;
+            transition: line-height 0.3s ease;
+        }
+        .section ul {
+            list-style: square;
+            transition: list-style 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container animated">
+        <h1>Pneumonia: Understanding the Basics</h1>
+        <img src="https://i.postimg.cc/Hxj2vbwD/Designer.png" alt="Pneumonia">
+        <div class="toc">
+            <ul>
+                <li><a href="#section-what-is">What Is Pneumonia?</a></li>
+                <li><a href="#section-causes">Causes and Risk Factors</a></li>
+                <li><a href="#section-symptoms">Common Symptoms</a></li>
+                <li><a href="#section-diagnosis">Diagnosis and Treatment</a></li>
+                <li><a href="#section-prevention">Prevention</a></li>
+            </ul>
+        </div>
+        <div class="section" id="section-what-is">
+            <h2>What Is Pneumonia?</h2>
+            <p>Pneumonia is an infection that inflames the air sacs in one or both lungs. It can cause symptoms like cough, fever, shortness of breath, and chest pain.</p>
+        </div>
+        <div class="section" id="section-causes">
+            <h2>Causes and Risk Factors</h2>
+            <ul>
+                <li><strong>Bacterial pneumonia:</strong> Commonly caused by Streptococcus pneumoniae.</li>
+                <li><strong>Viral pneumonia:</strong> Often caused by influenza viruses.</li>
+                <li><strong>Fungal pneumonia:</strong> Associated with certain fungi.</li>
+                <li><strong>Risk factors:</strong> Age, weakened immune system, smoking, and chronic lung conditions.</li>
+            </ul>
+        </div>
+        <div class="section" id="section-symptoms">
+            <h2>Common Symptoms</h2>
+            <ul>
+                <li>Cough with mucus or phlegm</li>
+                <li>Fever, often high-grade with chills</li>
+                <li>Fast breathing</li>
+                <li>Shortness of breath</li>
+                <li>Chest pain while coughing</li>
+                <li>Fast heartbeat</li>
+                <li>Feeling very tired or weak</li>
+                <li>Nausea and vomiting</li>
+                <li>Diarrhea</li>
+                <li>Loss of appetite</li>
+                <li>Body pain</li>
+            </ul>
+        </div>
+        <div class="section" id="section-diagnosis">
+            <h2>Diagnosis and Treatment</h2>
+            <p>Diagnosis involves physical exams, chest X-rays, and lab tests. Treatment options include antibiotics, antivirals, and supportive care.</p>
+        </div>
+        <div class="section" id="section-prevention">
+            <h2>Prevention</h2>
+            <p>Prevent pneumonia by getting vaccinated (especially for flu and pneumococcal infections), practicing good hygiene, and avoiding smoking.</p>
+        </div>
+    </div>
+</body>
+</html>
