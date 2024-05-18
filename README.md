@@ -38,9 +38,7 @@ Classification Report:
 weighted avg       0.91      0.91      0.91       624
 ```
 
-Metric
-VGG16 Model	
-       Custom CNN Model
+
 
 
 
